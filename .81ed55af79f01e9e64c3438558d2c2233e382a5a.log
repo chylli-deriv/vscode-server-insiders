@@ -1,0 +1,70 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[createInstance] extensionManagementService depends on storageService which is NOT registered.
+IP Address: 172.30.0.96
+webview server listening on 42491
+Extension host agent listening on 34779
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+chmod: cannot access '/tmp/ssh-v6YqwnOzQt': No such file or directory
+Got start params: { language: 'en',
+  break: undefined,
+  port: undefined,
+  debugId: undefined }
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+EXTHOST: PROCESS EXITED
+0
+null
+Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+Got start params: { language: 'en',
+  break: undefined,
+  port: undefined,
+  debugId: undefined }
+EXTHOST: PROCESS EXITED
+0
+null
+Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+Got start params: { language: 'en',
+  break: undefined,
+  port: undefined,
+  debugId: undefined }
+EXTHOST: PROCESS EXITED
+0
+null
+Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+Got start params: { language: 'en',
+  break: undefined,
+  port: undefined,
+  debugId: undefined }
+==> Received a management connection
+New EH opened, aborting shutdown

@@ -1,0 +1,211 @@
+{
+	"name": "perl-toolbox",
+	"displayName": "Perl Toolbox",
+	"description": "Perl Toolbox for Linting and Syntax Checking",
+	"repository": {
+		"url": "https://github.com/d9705996/perl-toolbox"
+	},
+	"license": "MIT",
+	"version": "1.3.2",
+	"publisher": "d9705996",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"icon": "images/perl.png",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "perl-toolbox",
+			"properties": {
+				"perl-toolbox.temporaryPath": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Path to write temporary lint and syntax files to.  Defaults to OS specific tmp path",
+					"scope": "window"
+				},
+				"perl-toolbox.syntax.exec": {
+					"type": [
+						"string"
+					],
+					"default": "perl",
+					"description": "perl binary",
+					"scope": "window"
+				},
+				"perl-toolbox.syntax.path": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "path to perl binary",
+					"scope": "window"
+				},
+				"perl-toolbox.syntax.includePaths": {
+					"type": "array",
+					"default": [],
+					"description": "Paths to add to @INC",
+					"scope": "window"
+				},
+				"perl-toolbox.syntax.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable Syntax Checking",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.highlightMode": {
+					"type": "string",
+					"enum": [
+						"line",
+						"word"
+					],
+					"default": "line",
+					"description": "Highlight violations per word or line",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.severity": {
+					"type": "string",
+					"enum": [
+						"gentle",
+						"stern",
+						"harsh",
+						"cruel",
+						"brutal"
+					],
+					"default": "brutal",
+					"description": "Report violations up to this severity",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.exec": {
+					"type": [
+						"string"
+					],
+					"default": "perlcritic",
+					"description": "perlcritic binary",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable linting",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.useProfile": {
+					"type": "boolean",
+					"default": false,
+					"description": "Use settings from ~/.perlcriticrc",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.brutal": {
+					"type": "string",
+					"enum": [
+						"critical",
+						"warning",
+						"info",
+						"hint"
+					],
+					"default": "warning",
+					"description": "Problem severity for brutal violations",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.cruel": {
+					"type": "string",
+					"enum": [
+						"critical",
+						"warning",
+						"info",
+						"hint"
+					],
+					"default": "warning",
+					"description": "Problem severity for cruel violations",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.harsh": {
+					"type": "string",
+					"enum": [
+						"critical",
+						"warning",
+						"info",
+						"hint"
+					],
+					"default": "info",
+					"description": "Problem severity for harsh violations",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.stern": {
+					"type": "string",
+					"enum": [
+						"critical",
+						"warning",
+						"info",
+						"hint"
+					],
+					"default": "info",
+					"description": "Problem severity for stern violations",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.gentle": {
+					"type": "string",
+					"enum": [
+						"critical",
+						"warning",
+						"info",
+						"hint"
+					],
+					"default": "hint",
+					"description": "Problem severity for gentle violations",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.path": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "path to perlcritic binary",
+					"scope": "window"
+				},
+				"perl-toolbox.lint.excludedPolicies": {
+					"type": "array",
+					"default": [],
+					"description": "Policies to exclude",
+					"scope": "window"
+				}
+			}
+		}
+	},
+	"categories": [
+		"Linters"
+	],
+	"keywords": [
+		"Perl",
+		"Perlcritic",
+		"linting",
+		"syntax"
+	],
+	"activationEvents": [
+		"onLanguage:perl"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^7.10.5",
+		"tslint": "^5.15.0",
+		"typescript": "^2.9.2",
+		"vscode": "^1.1.33"
+	},
+	"__metadata": {
+		"id": "8ac97115-bfc9-4b61-a0f9-bef655d2ae51",
+		"publisherId": "772faf8d-d1b0-4cba-bda2-a6dc327a8d5d",
+		"publisherDisplayName": "David Walker"
+	}
+}

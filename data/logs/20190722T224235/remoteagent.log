@@ -1,0 +1,55 @@
+[2019-07-22 22:42:35.788] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2019-07-22 22:42:35.788] [remoteagent] [info] Extension host agent listening on 34779
+[2019-07-22 22:42:39.989] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 22:42:40.137] [remoteagent] [info] ==> Received an extension host connection.
+[2019-07-22 22:42:40.137] [remoteagent] [info] ==> Using UI language: en
+[2019-07-22 22:42:40.617] [remoteagent] [info] Scanning extensions using UI language: en
+[2019-07-22 23:16:06.468] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 23:16:06.612] [remoteagent] [info] ==> Received an extension host connection.
+[2019-07-22 23:16:06.612] [remoteagent] [info] ==> Using UI language: en
+[2019-07-22 23:16:19.663] [remoteagent] [info] Installing extension: d9705996.perl-toolbox
+[2019-07-22 23:16:20.570] [remoteagent] [info] Downloaded extension: d9705996.perl-toolbox /tmp/50b5aedd-9505-4491-b106-bbfa2b77424c
+[2019-07-22 23:16:20.587] [remoteagent] [info] Extracted extension to /home/chylli/.vscode-server-insiders/extensions/.d9705996.perl-toolbox-1.3.2: d9705996.perl-toolbox
+[2019-07-22 23:16:20.587] [remoteagent] [info] Renamed to /home/chylli/.vscode-server-insiders/extensions/d9705996.perl-toolbox-1.3.2
+[2019-07-22 23:16:20.588] [remoteagent] [info] Installation completed. d9705996.perl-toolbox
+[2019-07-22 23:16:20.593] [remoteagent] [info] Extensions installed successfully: d9705996.perl-toolbox
+[2019-07-22 23:16:32.791] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-07-22 23:16:36.803] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2019-07-22 23:16:36.803] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-07-22 23:16:40.234] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 23:16:40.398] [remoteagent] [info] ==> Received an extension host connection.
+[2019-07-22 23:16:40.398] [remoteagent] [info] ==> Using UI language: en
+[2019-07-22 23:16:40.896] [remoteagent] [info] Scanning extensions using UI language: en
+[2019-07-22 23:16:48.934] [remoteagent] [info] Uninstalling extension: d9705996.perl-toolbox
+[2019-07-22 23:16:48.938] [remoteagent] [info] Successfully uninstalled extension: d9705996.perl-toolbox
+[2019-07-22 23:16:52.600] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-07-22 23:16:52.600] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-07-22 23:16:56.972] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2019-07-22 23:16:56.972] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-07-22 23:17:00.428] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 23:17:00.579] [remoteagent] [info] ==> Received an extension host connection.
+[2019-07-22 23:17:00.579] [remoteagent] [info] ==> Using UI language: en
+[2019-07-22 23:17:01.087] [remoteagent] [info] Scanning extensions using UI language: en
+[2019-07-22 23:17:34.284] [remoteagent] [info] Installing extension: d9705996.perl-toolbox
+[2019-07-22 23:17:34.540] [remoteagent] [info] Downloaded extension: d9705996.perl-toolbox /tmp/3d8b9bda-dc4d-4218-9009-b3fabdd56d5a
+[2019-07-22 23:17:34.544] [remoteagent] [info] Removed the extension from uninstalled list: d9705996.perl-toolbox
+[2019-07-22 23:17:34.545] [remoteagent] [info] Extensions installed successfully: d9705996.perl-toolbox
+[2019-07-22 23:17:37.502] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-07-22 23:17:37.502] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-07-22 23:17:41.860] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2019-07-22 23:17:41.860] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-07-22 23:17:45.266] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 23:17:45.266] [remoteagent] [info] ==> Received an extension host connection.
+[2019-07-22 23:17:45.266] [remoteagent] [info] ==> Using UI language: en
+[2019-07-22 23:17:45.777] [remoteagent] [info] Scanning extensions using UI language: en
+[2019-07-22 23:17:58.516] [remoteagent] [info] ==> Received a management connection
+[2019-07-22 23:22:41.861] [remoteagent] [info] New EH opened, aborting shutdown
